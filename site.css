@@ -67,7 +67,7 @@ body, h1{
 
 /* ----------- Header Styling ----------- */
 header{
-    background-image: url(/images/imgs/hand-grips-a-gardening-tool-to-cut-back-a-plant.jpg); /* Background image for header */
+    background-image: url(https://gnvsmanikanta.github.io/Manikanta---Garden-Website/hand-grips-a-gardening-tool-to-cut-back-a-plant.jpg); /* Background image for header */
     background-size: cover; /* Covering the whole header area with the image */
     background-position: center; /* Centering the background image */
 }
