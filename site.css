@@ -34,7 +34,7 @@ header, footer{
     color: #eee; /* Light color text for header and footer */
 }
 
-h2, h3, nav ul li a{
+h2, nav ul li a{
     color: rgb(35, 102, 12); /* Green color for h2 and nav links */
 }
 
