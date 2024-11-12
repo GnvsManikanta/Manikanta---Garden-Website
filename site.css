@@ -1,0 +1,186 @@
+/* -------------------- General Styles -------------------- */
+h1, nav, footer{
+    font-family: "Century", "Gothic", "serif"; /* Applying fonts for h1, nav, and footer */
+}
+
+h2, h3, dt{
+    font-family: "Gabriola", "sans-serif"; /* Applying fonts for h2, h3, and dt */
+}
+
+h1{
+    font-size: 3em; /* Large font size for h1 */
+    font-weight: 500; /* Medium weight for h1 */
+}
+
+h2{
+    font-size: 2em; /* Slightly smaller font size for h2 */
+}
+
+dt{
+    font-weight: bold; /* Making dt bold */
+}
+
+footer{
+    font-size: smaller; /* Smaller font size for footer */
+}
+
+#copyright{
+    font-family: "serif", "italic"; /* Applying serif and italic fonts for copyright */
+}
+
+/* ----------- Assigning Colour to Tags ----------- */
+header, footer{
+    background-color: rgb(65, 132, 42); /* Background color for header and footer */
+    color: #eee; /* Light color text for header and footer */
+}
+
+h2, nav ul li a{
+    color: rgb(35, 102, 12); /* Green color for h2 and nav links */
+}
+
+footer nav li a{
+    color: #eee; /* Light color for links in footer navigation */
+}
+
+/* ---------------- Text Styles -------------------- */
+h1{
+    line-height: 400%; /* Increasing line height for h1 */
+}
+
+h2, h3, dt, nav a{
+    text-transform: uppercase; /* Uppercase text for h2, h3, dt, and nav links */
+    letter-spacing: 1px; /* Adding letter spacing for better readability */
+}
+
+h1, nav, #copyright {
+    text-align: center; /* Center aligning text in h1, nav, and copyright */
+}
+
+nav a {
+    text-decoration: none; /* Removing underline from nav links */
+}
+
+/* ----------- Resetting margins ----------- */
+body, h1{
+    margin: 0%; /* Removing margin from body and h1 */
+}
+
+/* ----------- Header Styling ----------- */
+header{
+    background-image: url(/images/imgs/hand-grips-a-gardening-tool-to-cut-back-a-plant.jpg); /* Background image for header */
+    background-size: cover; /* Covering the whole header area with the image */
+    background-position: center; /* Centering the background image */
+}
+
+h1{
+    background-color: rgba(5, 72, 12, .5); /* Adding a semi-transparent background color for h1 */
+    text-shadow: 2px 2px 10px white; /* Adding text shadow to h1 for better visibility */
+}
+
+/* ----------- Navigation Styling ----------- */
+nav a{
+    display: inline-block; /* Displaying nav links as inline-block */
+    padding: 10px 20px; /* Adding padding to nav links */
+}
+
+/* ----------- Wrapper Styling ----------- */
+#wrapper{
+    width: 80%; /* Setting wrapper width to 80% */
+    margin: auto; /* Centering the wrapper */
+}
+
+/* ----------- Footer Styling ----------- */
+footer{
+    padding: 10px 10% 10px 10%; /* Adding padding around footer */
+    margin-top: 20px; /* Adding top margin to footer */
+}
+
+footer div{
+    display: inline-block; /* Displaying footer divs inline */
+    width: 33%; /* Dividing footer into three equal columns */
+}
+
+/* ----------- List Styling ----------- */
+ul{
+    padding: 0px; /* Removing padding from ul */
+    list-style: none; /* Removing list-style (bullet points) */
+}
+
+/* ----------- Footer Navigation Styling ----------- */
+footer nav a{
+    display: block; /* Displaying footer nav links as block */
+    padding: 0%; /* Removing padding from footer nav links */
+    text-align: left; /* Aligning text to the left */
+    color: white; /* Setting text color to white */
+}
+
+/* ----------- Hero Image Styling ----------- */
+#heroimg{
+    width: 100%; /* Making hero image span 100% width */
+    height: 300px; /* Fixed height for hero image */
+    object-fit: cover; /* Ensuring the image covers the area */
+    object-position: center; /* Centering the image */
+}
+
+/* ----------- Categories Section Styling ----------- */
+#categories{
+    margin: 40px 0px; /* Adding margin above and below the categories section */
+}
+
+#categories img{
+    width: 80px; /* Setting image size in categories */
+    height: 80px; /* Setting image size in categories */
+    margin-right: 20px; /* Adding right margin between images */
+}
+
+#categories section{
+    margin-bottom: 20px; /* Adding bottom margin for each section in categories */
+}
+
+/* ----------- Navbar Styling ----------- */
+#navbar-style ul {
+    display: inline; /* Displaying navbar items inline */
+}
+
+#navbar-style li {
+    display: inline; /* Displaying list items inline */
+}
+
+ /* General Wrapper Styling */
+ #wrapper {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Flexbox Layout for the Main Content Section */
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Ensures Equal Width for Each Section in the Container */
+.section-container > div {
+    width: 48%; 
+    box-sizing: border-box;
+}
+
+/* Styling for the Map Section */
+.map {
+    text-align: center;
+}
+
+/* iframe styling to display map */
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+/* Centering the Title (h2) */
+h2 {
+    text-align: center;
+}
