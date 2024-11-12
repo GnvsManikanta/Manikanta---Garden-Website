@@ -34,7 +34,7 @@ header, footer{
     color: #eee; /* Light color text for header and footer */
 }
 
-h2, nav ul li a{
+h2, h3, nav ul li a{
     color: rgb(35, 102, 12); /* Green color for h2 and nav links */
 }
 
@@ -183,4 +183,23 @@ iframe {
 /* Centering the Title (h2) */
 h2 {
     text-align: center;
+}
+
+#multicol{
+    overflow: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item25{
+    float: none;
+    text-align: center;
+    width: 23%;
+    box-shadow: 0px 0px 20px #eee; 
+} 
+
+.icon{
+    display: block;
+    font-size: 3em;
+    color: rgb(35,102, 12);
 }
